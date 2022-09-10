@@ -6,6 +6,7 @@ import 'package:platzi_trips_app/User/ui/screens/profile_trips.dart';
 class PlatziTrips extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
+    // ignore: todo
     // TODO: implement createState
     return _PlatziTrips();
   }
@@ -27,6 +28,7 @@ class _PlatziTrips extends State<PlatziTrips> {
 
   @override
   Widget build(BuildContext context) {
+    // ignore: todo
     // TODO: implement build
 
     return Scaffold(

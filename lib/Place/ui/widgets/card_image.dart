@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:platzi_trips_app/widgets/floating_action_button_green.dart';
 
+// ignore: must_be_immutable
 class CardImage extends StatelessWidget {
   String pathImage = "assets/img/beach.jpeg";
 
@@ -8,6 +9,7 @@ class CardImage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // ignore: todo
     // TODO: implement build
 
     final card = Container(

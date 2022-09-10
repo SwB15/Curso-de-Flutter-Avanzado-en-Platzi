@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// ignore: must_be_immutable
 class GradientBack extends StatelessWidget {
   String title = "Popular";
 
@@ -7,6 +8,7 @@ class GradientBack extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // ignore: todo
     // TODO: implement build
     return Container(
       height: 250.0,

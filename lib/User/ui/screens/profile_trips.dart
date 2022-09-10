@@ -6,6 +6,7 @@ import 'package:platzi_trips_app/User/ui/widgets/profile_background.dart';
 class ProfileTrips extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    // ignore: todo
     // TODO: implement build
     /*return Container(
       color: Colors.indigo,

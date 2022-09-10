@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'profile_place.dart';
 import 'package:platzi_trips_app/Place/model/place.dart';
 
+// ignore: must_be_immutable
 class ProfilePlacesList extends StatelessWidget {
   Place place = new Place(
       'Knuckles Mountains Range',

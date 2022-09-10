@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// ignore: must_be_immutable
 class ButtonPurple extends StatelessWidget {
   String buttonText = "Navigate";
 
@@ -7,9 +8,11 @@ class ButtonPurple extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // ignore: todo
     // TODO: implement build
     return InkWell(
       onTap: () {
+        // ignore: deprecated_member_use
         Scaffold.of(context).showSnackBar(SnackBar(
           content: Text("Navegando"),
         ));

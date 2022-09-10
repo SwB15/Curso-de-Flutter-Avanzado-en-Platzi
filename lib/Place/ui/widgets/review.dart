@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// ignore: must_be_immutable
 class Review extends StatelessWidget {
   String pathImage = "assets/img/people.jpg";
   String name = "Varuna Yasas";
@@ -10,6 +11,7 @@ class Review extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // ignore: todo
     // TODO: implement build
 
     final userComment = Container(

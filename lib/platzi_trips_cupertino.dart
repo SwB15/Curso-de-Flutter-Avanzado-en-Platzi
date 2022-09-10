@@ -7,6 +7,7 @@ import 'package:platzi_trips_app/User/ui/screens/profile_trips.dart';
 class PlatziTripsCupertino extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    // ignore: todo
     // TODO: implement build
     return Scaffold(
       bottomNavigationBar: CupertinoTabScaffold(
@@ -18,6 +19,7 @@ class PlatziTripsCupertino extends StatelessWidget {
           BottomNavigationBarItem(
               icon: Icon(Icons.person, color: Colors.indigo), label: ""),
         ]),
+        // ignore: missing_return
         tabBuilder: (BuildContext context, int index) {
           switch (index) {
             case 0:

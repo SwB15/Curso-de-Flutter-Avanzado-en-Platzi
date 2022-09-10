@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../../../widgets/button_purple.dart';
 
+// ignore: must_be_immutable
 class DescriptionPlace extends StatelessWidget {
   String namePlace;
   int stars;
@@ -10,20 +11,13 @@ class DescriptionPlace extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // ignore: todo
     // TODO: implement build
 
-    final star_half = Container(
+    final starHalf = Container(
       margin: EdgeInsets.only(top: 353.0, right: 3.0),
       child: Icon(
         Icons.star_half,
-        color: Color(0xFFf2C611),
-      ),
-    );
-
-    final star_border = Container(
-      margin: EdgeInsets.only(top: 353.0, right: 3.0),
-      child: Icon(
-        Icons.star_border,
         color: Color(0xFFf2C611),
       ),
     );
@@ -36,7 +30,7 @@ class DescriptionPlace extends StatelessWidget {
       ),
     );
 
-    final title_stars = Row(
+    final titleStars = Row(
       children: <Widget>[
         Container(
           margin: EdgeInsets.only(top: 350.0, left: 20.0, right: 20.0),
@@ -50,7 +44,7 @@ class DescriptionPlace extends StatelessWidget {
           ),
         ),
         Row(
-          children: <Widget>[star, star, star, star, star_half],
+          children: <Widget>[star, star, star, star, starHalf],
         )
       ],
     );
@@ -69,7 +63,7 @@ class DescriptionPlace extends StatelessWidget {
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
-      children: <Widget>[title_stars, description, ButtonPurple("Navigate")],
+      children: <Widget>[titleStars, description, ButtonPurple("Navigate")],
     );
   }
 }

@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 class FloatingActionButtonGreen extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
+    // ignore: todo
     // TODO: implement createState
     return _FloatingActionButtonGreen();
   }
@@ -10,6 +11,7 @@ class FloatingActionButtonGreen extends StatefulWidget {
 
 class _FloatingActionButtonGreen extends State<FloatingActionButtonGreen> {
   void onPressedFav() {
+    // ignore: deprecated_member_use
     Scaffold.of(context).showSnackBar(SnackBar(
       content: Text("Agregaste a tus Favoritos"),
     ));
@@ -17,6 +19,7 @@ class _FloatingActionButtonGreen extends State<FloatingActionButtonGreen> {
 
   @override
   Widget build(BuildContext context) {
+    // ignore: todo
     // TODO: implement build
     return FloatingActionButton(
       backgroundColor: Color(0xFF11DA53),

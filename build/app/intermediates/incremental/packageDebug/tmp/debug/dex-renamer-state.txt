@@ -1,4 +1,4 @@
-#Fri Aug 26 12:37:17 PYT 2022
+#Sat Sep 10 12:02:47 PYT 2022
 base.0=C\:\\Users\\User\\Documents\\Flutter\\curso_avanzado_flutter\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
